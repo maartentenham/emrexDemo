@@ -1,11 +1,26 @@
 {
-  "generator-karma": {
-    "base-path": "../",
-    "frameworks": "jasmine",
-    "browsers": "PhantomJS",
-    "app-files": "app/scripts/**/*.js",
-    "files-comments": "bower:js,endbower",
-    "bower-components-path": "bower_components",
-    "test-files": "test/mock/**/*.js,test/spec/**/*.js"
+  "generator-jhipster": {
+    "jhipsterVersion": "3.8.0",
+    "baseName": "emrexDemo",
+    "packageName": "nl.ocwduo.emrex",
+    "packageFolder": "nl/ocwduo/emrex",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "hibernateCache": "no",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "jwtSecretKey": "6c3e567473a4e74948a81eb1ee26638ededd74a0",
+    "useSass": false,
+    "applicationType": "monolith",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "enableTranslation": false
   }
 }
